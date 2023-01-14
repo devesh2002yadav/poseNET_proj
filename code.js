@@ -1,3 +1,4 @@
+// let is for declaring variables
 let capture;
 let posenet;
 let singlePose;
@@ -9,6 +10,7 @@ let mask;
 function setup()
 {
     createCanvas(1450, 600);
+    // video capturing 
     capture = createCapture(VIDEO);
     capture.hide();
     posenet=ml5.poseNet(capture, Done);
