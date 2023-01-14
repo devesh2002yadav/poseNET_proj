@@ -52,8 +52,9 @@ function draw()
        {
            line(skeleton[j][0].position.x, skeleton[j][0].position.y, skeleton[j][1].position.x, skeleton[j][1].position.y);
        }
-       //image(ironman, singlePose.nose.x-150, singlePose.nose.y-200, 350, 300);
-       image(spects, singlePose.nose.x-50, singlePose.nose.y-50, 200, 100);
-       image(mask, singlePose.nose.x-100, singlePose.nose.y-50, 250, 200);
+       // these are if we want to add some extra details 
+       // image(ironman, singlePose.nose.x-150, singlePose.nose.y-200, 350, 300);
+       // image(spects, singlePose.nose.x-50, singlePose.nose.y-50, 200, 100);
+       // image(mask, singlePose.nose.x-100, singlePose.nose.y-50, 250, 200);
    }
 }
