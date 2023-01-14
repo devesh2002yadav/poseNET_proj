@@ -26,8 +26,8 @@ function Pose_det(poses)
     console.log(poses);
     if(poses.length>0)
     {
-        singlePose=poses[0].pose;
-        skeleton=poses[0].skeleton;
+        singlePose=poses[0].pose; // keypoints
+        skeleton=poses[0].skeleton; // skeleton points
     }
 }
 
