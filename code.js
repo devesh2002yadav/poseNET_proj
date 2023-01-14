@@ -13,6 +13,7 @@ function setup()
     // video capturing 
     capture = createCapture(VIDEO);
     capture.hide();
+    // importing poseNet from ml5js
     posenet=ml5.poseNet(capture, Done);
     posenet.on('pose', Pose_det);
     ironman=loadImage('set/ironman.png');
