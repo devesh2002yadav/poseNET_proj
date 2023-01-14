@@ -9,7 +9,7 @@ let mask;
 
 function setup()
 {
-    createCanvas(1450, 600);
+    createCanvas(620, 470);
     // video capturing 
     capture = createCapture(VIDEO);
     capture.hide();
